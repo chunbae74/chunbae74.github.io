@@ -91,7 +91,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app 
   giscus:
-    repo: "chunbae74/chunbae74.github.io" # <gh-username>/<repo>
+    repo: chunbae74/chunbae74.github.io # <gh-username>/<repo>
     repo_id: "R_kgDOK3SkwQ"
     category: "Comments"
     category_id: "DIC_kwDOK3Skwc4Cbm0l"
