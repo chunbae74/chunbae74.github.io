@@ -81,7 +81,7 @@ avatar: /assets/img/avatar.png
 toc: true
 
 comments:
-  active: "giscus" # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -89,13 +89,13 @@ comments:
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+  # Giscus options › https://giscus.app 
   giscus:
     repo: "chunbae74/chunbae74.github.io" # <gh-username>/<repo>
     repo_id: "R_kgDOK3SkwQ"
     category: "Comments"
     category_id: "DIC_kwDOK3Skwc4Cbm0l"
-    mapping: # optional, default to 'pathname'
+    mapping: "pathname" # optional, default to 'pathname'
     input_position: "top" # optional, default to 'bottom'
     lang: "ko" # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
