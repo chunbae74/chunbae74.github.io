@@ -2,7 +2,7 @@
 title: eclipse 에러모음
 author: chunbae
 date: 2024-01-07 12:00:00 +0900
-categories: [Clip, Eclipse]
+categories: [ErrorClip, Eclipse]
 tags: [clip, eclipse]
 render_with_liquid: falses
 ---
