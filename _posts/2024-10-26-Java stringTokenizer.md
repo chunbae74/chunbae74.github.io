@@ -23,7 +23,6 @@ StringTokenizer 생성자는 최대 세 가지 인자를 받는다.
 StringTokenizer st = new StringTokenizer(문자열, 구분자, Token에 구분자 포함여부);
 ```
 
-<br>
 
 ### 1. 문자열
 
@@ -33,7 +32,6 @@ StringTokenizer st = new StringTokenizer(문자열, 구분자, Token에 구분�
 StringTokenizer st = new StringTokenizer(br.readLine());
 ```
 
-<br>
 
 ### 2. 구분자
 
@@ -42,7 +40,7 @@ StringTokenizer st = new StringTokenizer(br.readLine());
 ```java
 String input = "에잉,쯧쯧쯧,하여간,젊은것들이란";
 StringTokenizer st = new StringTokenizer(input, ",");
-while(!st.hasMoreTokens()) {
+while(st.hasMoreTokens()) {
 	System.out.println(st.nextToken());
 }
 
@@ -55,11 +53,10 @@ Output
 */
 ```
 
-<br>
 
 ### 3. Token에 구분자 포함여부
 
-`2. 구분자` 예제를 보면 구분자인 `쉼표(,)`는 출력이 되고 있지 않는 것을 볼 수 있다.
+[2. 구분자](https://chunbae74.github.io/posts/Java-stringTokenizer/#2-%EA%B5%AC%EB%B6%84%EC%9E%90) 예제를 보면 구분자인 `쉼표(,)`는 출력이 되고 있지 않는 것을 볼 수 있다.
 <br>
 만약 구분자도 출력하고프다면, 세 번째 인자 값에 `true`를 넣어주면 된다.
 
@@ -90,15 +87,19 @@ Output
 
 토큰의 개수를 반환한다.
 
-<br>
-
 ### hasMoreTokens()
 
 남아있는 토큰이 있으면 `true`를 , 더 이상 토큰이 없으면 `false`를 리턴한다.
 <br>
-구분자로 분리한 문자열을 출력하고 싶을 때 많이 사용되며, 사용법은 `2. 구분자`에서 확인할 수 있다.
+구분자로 분리한 문자열을 출력하고 싶을 때 많이 사용되며, 사용법은 [2. 구분자](https://chunbae74.github.io/posts/Java-stringTokenizer/#2-%EA%B5%AC%EB%B6%84%EC%9E%90)에서 확인할 수 있다.
 
-<br>
+### hasMoreElements
+
+`hasMoreTokens`와 동일하나, 엘리먼트보다 토큰으로 된 메서드를 주로 사용한다.
+
+### nextElement()
+
+`nextToken`와 동일하지만, 문자열이 아닌 객체를 반환한다.
 
 ### nextToken()
 
@@ -118,7 +119,9 @@ Output
 */
 ```
 
+<br>
 구분자로 구분한 문자열을 출력하려는 위 코드는 `nextToken()` 사용 시 이전 토큰이 제거된다는 사실을 고려하지 않은 코드로, 아래와 같이 수정해야 한다.
+<br>
 
 ```java
 String input = "에잉,쯧쯧쯧,하여간,젊은것들이란";
@@ -142,18 +145,6 @@ Output
 젊은것들이란
 */
 ```
-
-<br>
-
-### hasMoreElements
-
-`hasMoreTokens`와 동일하나, 엘리먼트보다 토큰으로 된 메서드를 주로 사용한다.
-
-<br>
-
-### nextElement()
-
-`nextToken`와 동일하지만, 문자열이 아닌 객체를 반환한다.
 
 <br>
 
