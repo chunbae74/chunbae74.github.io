@@ -29,7 +29,10 @@ const userConfig = {
     role: "KNU Computer Science Student",
     initial: "JYB.",
     description: "해보고 싶은 것이 많은 대학생입니다.",
-    email: "chunbaekim74@gmail.com"
+    email: "chunbaekim74@gmail.com",
+    githubId: "chunbae74",
+    blog: "https://chunbae74.tistory.com/",
+    baekjoonId: "chunbae74",
 };
 
 // about user (#about 페이지에서 사용됨)

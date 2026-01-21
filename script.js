@@ -41,8 +41,17 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('role').innerText = userConfig.role;
     document.getElementById('home-description').innerText = userConfig.description;
     document.getElementById('email').innerText = userConfig.email;
+    document.getElementById('email-link').href = `mailto:${userConfig.email}`;
+    document.getElementById('blog-link').href = userConfig.blog;
+    document.getElementById('baekjoon-link').href = `https://www.acmicpc.net/user/${userConfig.baekjoonId}`;
+    document.getElementById('baekjoon').href = userConfig.baekjoonId;
     document.getElementById('about-description').innerText = userDetails.aboutMe;
+    document.getElementById('github-link').href = `https://github.com/${userConfig.githubId}`;
 
+    // asset 폴더에 profile.jpg 사진 넣어둘 것.
+    document.getElementById('profile-img').src = `https://raw.githubusercontent.com/${userConfig.githubId}/${userConfig.githubId}.github.io/refs/heads/main/asset/profile.jpg`
+    
+    
     // 2. 타임라인(Experience) 렌더링
     const timelineContainer = document.querySelector('.space-y-8.border-l-2');
     if (timelineContainer && userDetails.timeline) {
