@@ -1,4 +1,85 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* 기본 설정 */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; scroll-behavior: smooth; }
+        
+        /* 내비게이션 */
+        nav {
+            position: fixed; top: 0; width: 100%; background: #fff;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 50px; border-bottom: 1px solid #eee; z-index: 1000;
+        }
+        nav .logo { font-weight: bold; font-size: 1.5rem; text-decoration: none; color: #000; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 30px; }
+        nav ul li a { text-decoration: none; color: #555; transition: 0.3s; }
+        nav ul li a:hover { color: #000; }
+
+        /* 섹션 공통 스타일 */
+        section { padding: 100px 50px; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        h2 { font-size: 2.5rem; margin-bottom: 20px; }
+
+        /* 홈 섹션 */
+        #home { background-color: #f9f9f9; text-align: center; }
+        #home p { font-size: 1.2rem; color: #777; }
+
+        /* 자기소개 섹션 */
+        #about { background-color: #fff; }
+        .content { max-width: 800px; text-align: center; }
+
+        /* 프로젝트 섹션 (그리드 레이아웃) */
+        #projects { background-color: #f4f4f4; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; width: 100%; max-width: 1000px; }
+        .card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+
+        /* 연락처 섹션 */
+        #contact { background-color: #fff; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home" class="logo">YIDEUN.</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>안녕하세요, 김이든입니다.</h1>
+        <p>함께 성장하는 개발자가 되고 싶습니다.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="content">
+            <p>여기에 본인의 핵심 역량과 가치관을 적어보세요. 깔끔한 문장일수록 전달력이 좋습니다.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid">
+            <div class="card"><h3>Project 1</h3><p>프로젝트 설명</p></div>
+            <div class="card"><h3>Project 2</h3><p>프로젝트 설명</p></div>
+            <div class="card"><h3>Project 3</h3><p>프로젝트 설명</p></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+        <p>GitHub: @username</p>
+    </section>
+
+</body>
+</html>
