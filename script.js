@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('email-link').href = `mailto:${userConfig.email}`;
     document.getElementById('blog-link').href = userConfig.blog;
     document.getElementById('baekjoon-link').href = `https://www.acmicpc.net/user/${userConfig.baekjoonId}`;
-    document.getElementById('baekjoon').href = userConfig.baekjoonId;
+    document.getElementById('baekjoon').innerText = userConfig.baekjoonId;
     document.getElementById('about-description').innerText = userDetails.aboutMe;
     document.getElementById('github-link').href = `https://github.com/${userConfig.githubId}`;
 
