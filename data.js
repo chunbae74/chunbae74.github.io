@@ -1,4 +1,4 @@
-// data.js
+// 포트폴리오 내용들
 const portfolioData = [
     {
         title: "Internship in IMPACSYS",
