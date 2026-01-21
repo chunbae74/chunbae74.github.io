@@ -27,6 +27,7 @@ const userConfig = {
     name: "Junyoung Bae",
     title: "Junyoung Bae | 포트폴리오",
     role: "KNU Computer Science Student",
+    initial: "JYB.",
     description: "해보고 싶은 것이 많은 대학생입니다.",
     email: "chunbaekim74@gmail.com"
 };

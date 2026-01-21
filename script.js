@@ -24,8 +24,10 @@ function renderPortfolio() {
 // 초기화 및 라우팅 로직
 document.addEventListener('DOMContentLoaded', function () {
     // 사이트 기본 설정들 (이름, contact 정보 등) 입력
-    document.getElementById('user-name').innerText = "제목";
-    document.getElementById('nav-logo').innerText = userConfig.name;
+    document.getElementById('site-title').innerText = userConfig.title;
+    document.getElementById('user-name').innerText = userConfig.name;
+    document.getElementById('about-user-name').innerText = userConfig.name;
+    document.getElementById('nav-logo').innerText = userConfig.initial;
     document.getElementById('role').innerText = userConfig.role;
     document.getElementById('home-description').innerText = userConfig.description;
     document.getElementById('email').innerText = userConfig.email;
