@@ -171,10 +171,11 @@
 
     </main>
 
-    <script>
+    <script src="data.js">
         // ==========================================
         // [1] PORTFOLIO DATA & CONFIGURATION
-        // 포트폴리오 항목을 여기에 추가하면 자동으로 화면에 반영됩니다.
+        // 포트폴리오 항목을 data.js 파일에 추가하면 
+        // 자동으로 화면에 반영됩니다.
         // ==========================================
         
         // 카테고리별 아이콘 및 색상 설정 (유지보수 편의성)
@@ -189,88 +190,6 @@
             'PM':         { icon: 'zap',       colorClass: 'text-orange-600', bgClass: 'bg-orange-50' },
             'Default':    { icon: 'star',      colorClass: 'text-gray-600', bgClass: 'bg-gray-50' }
         };
-
-        // 포트폴리오 데이터 배열
-        const portfolioData = [
-            {
-                title: "Internship in IMPACSYS",
-                category: "Internship",
-                desc: "\"우리울릉\" QA in IMPACSYS Co., Ltd",
-                tags: ["Spring", "JS"]
-            },
-            {
-                title: "BitNet-MCP Hybrid System",
-                category: "Paper",
-                desc: "Efficient Query Processing. ASK Submission as First Author.",
-                tags: ["BitNet", "MCP"]
-            },
-            {
-                title: "Model Context Protocol Trends and Security Threats",
-                category: "Paper",
-                desc: "Technical Trends Analysis. CISC Submission as First Author.",
-                tags: ["Security", "MCP"]
-            },
-            {
-                title: "AlLerGy Club Leader",
-                category: "Activity",
-                desc: "Leading Algorithms & Coding Test Club (2024 - Present)",
-                tags: ["Leadership","PS"]
-            },
-            {
-                title: "Google Developer Groups in KNU",
-                category: "Activity",
-                desc: "AI SESSION Assistant of part leader",
-                tags: ["AI"]
-            },
-            {
-                title: "CNU Algorithm Contest",
-                category: "Award",
-                desc: "4th place and Silver Prize winner.",
-                tags: ["Algorithm"]
-            },
-            {
-                title: "Hack The Code 2025",
-                category: "Contest",
-                desc: "Ranked 60th among 1400 participants. Python Problem Solving.",
-                tags: ["Python", "PS"]
-            },
-            {
-                title: "사이음 (Saieum)",
-                category: "Volunteering",
-                desc: "AI Voice Phishing Prevention Education Program.",
-                tags: ["TTS/STT","AI"]
-            },
-            {
-                title: "SKKU-KIISE Deepfake Competition",
-                category: "Award",
-                desc: "Grand Prize. Red Team. Image latent value analysis.",
-                tags: ["AI"]
-            },
-            {
-                title: "Quantum Minor Embeddings",
-                category: "Research",
-                desc: "Writing SCIE Paper. Quantum Annealing with RL.",
-                tags: ["Quantum Computing"]
-            },
-            {
-                title: "Upstage Agentic Workflow Hackathon",
-                category: "Award",
-                desc: "Grand Prize. Role: PM, n8n tool testing.",
-                tags: ["PM", "n8n"]
-            },
-            {
-                title: "International Collegiate Programming Contest(ICPC) Advance to Final",
-                category: "Contest",
-                desc: "Advance to Final",
-                tags: ["Python", "PS"]
-            }, 
-            {
-                title: "Software Development Security Contest",
-                category: "Award",
-                desc: "Korea Institute of Information Security & Cryptology President's Award",
-                tags: ["AI", "Android","Alzheimer's diagnosis to use voice data"]
-            }
-        ];
 
         // ==========================================
         // [2] RENDER LOGIC
