@@ -49,8 +49,3 @@ const categoryConfig = {
     'PM':         { icon: 'zap',       colorClass: 'text-orange-600', bgClass: 'bg-orange-50' },
     'Default':    { icon: 'star',      colorClass: 'text-gray-600', bgClass: 'bg-gray-50' }
 };
-
-module.exports = {
-    userConfig: userConfig,
-    userDetails: userDetails
-};

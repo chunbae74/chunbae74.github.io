@@ -1,4 +1,3 @@
-const userConfig = require('./data.js');
 
 function renderPortfolio() {
     const container = document.getElementById('portfolio-grid');
