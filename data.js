@@ -31,7 +31,7 @@ const portfolioData = [
         tags: ["AI", "치매진단 서비스", "시큐어코딩"]
     },
     {
-        title: "KNU|Google Developer Groups",
+        title: "KNU Google Developer Groups",
         category: "Activity",
         desc: "AI 세션 소속 (2025 - Present)",
         tags: ["AI"]
@@ -46,13 +46,19 @@ const portfolioData = [
         title: "Coding Apple Spring Boot & JPA",
         category: "Study",
         desc: "Spring Boot & JPA 강의 수료 (2026.01.13)",
-        tags: ["PS", "Algorithm"]
+        tags: ["Study"]
     },
     {
         title: "AI BOOTCAMP AWARDS 해커톤",
         category: "Award",
         desc: "최우수상 수상 (26.01.19 ~ 01.20)",
         tags: ["AI", "Android", "공공데이터"]
+    },
+    {
+        title: "AI 학습법 및 대학생활 노하우 공모전",
+        category: "Award",
+        desc: "장려상 수상 (25.12.12 ~ 26.01.26)",
+        tags: ["AI"]
     }
 ];
 
