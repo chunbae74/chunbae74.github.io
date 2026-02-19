@@ -57,7 +57,7 @@ const portfolioData = [
     {
         title: "AI 학습법 및 대학생활 노하우 공모전",
         category: "Award",
-        desc: "장려상 수상 (25.12.12 ~ 26.01.26)",
+        desc: "장려상(강원권 공동 교육혁신센터장상) 수상 (25.12.12 ~ 26.01.26)",
         tags: ["AI"]
     }
 ];
