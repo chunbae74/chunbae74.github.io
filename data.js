@@ -15,13 +15,13 @@ const portfolioData = [
     {
         title: "Upstage Agentic Workflow 해커톤",
         category: "Award",
-        desc: "최우수상 수상 (25.11.16 ~ 11.14)",
+        desc: "최우수상 수상 (25.11.07 ~ 11.14)",
         tags: ["n8n", "Upstage", "LLM", "자동화"]
     },
     {
         title: "International Collegiate Programming Contest - ICPC",
         category: "Contest",
-        desc: "ICPC 본선 진출",
+        desc: "ICPC 본선 진출 (2025)",
         tags: ["PS", "Algorithm"]
     },
     {
