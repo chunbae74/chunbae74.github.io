@@ -31,9 +31,9 @@ const portfolioData = [
         tags: ["AI", "치매진단 서비스", "시큐어코딩"]
     },
     {
-        title: "KNU Google Developer Groups",
+        title: "KNU Google Developer Groups AI Session Co-leader",
         category: "Activity",
-        desc: "AI 세션 소속 (2025 - Present)",
+        desc: "AI 세션 부리더 (2026 - Present)",
         tags: ["AI"]
     },
     {
@@ -59,7 +59,13 @@ const portfolioData = [
         category: "Award",
         desc: "장려상(강원권 공동 교육혁신센터장상) 수상 (25.12.12 ~ 26.01.26)",
         tags: ["AI"]
-    }
+    },
+    {
+        title: "CQC Lab 학부연구생",
+        category: "Study",
+        desc: "CQC Lab 학부연구생 (2026 ~ Present)",
+        tags: ["Quantum Computer"]
+    },
 ];
 
 // 사용자 개인 정보 (#home에서 사용됨)
