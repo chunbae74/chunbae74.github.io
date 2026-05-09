@@ -977,5 +977,6 @@ em {
 
   /* Full-width buttons on very small screens */
   .btn { width: 100%; }
+  .hero-actions .btn,
   .contact-links .btn { width: auto; }
 }
