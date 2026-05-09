@@ -36,123 +36,134 @@
       "institution": "강원대학교",
       "period": "2023 – Present",
       "details": [
-        "Undergraduate Researcher: CQC Lab (Quantum Computing)",
-        "Activities: GDG KNU AI Session Co-leader, AlLerGy Club President, ICPC 2025 Finalist",
-        "Expected Graduation: 2026"
+        "학부연구생: CQC Lab (Quantum Computing)",
+        "졸업 예정일: 2029 Feb"
       ]
     }
   ],
 
-  "publications": [],
+  "publications": [
+    "\"대규모 최적화 문제 해결을 위한 그래프 분할 기반 양자 어닐링 접근법\""
+  ],
 
   "projects": [
     {
-      "title": "Upstage Agentic Workflow Hackathon",
+      "title": "SafeLink - IOS 개발",
       "link": null,
       "linkLabel": null,
-      "status": "최우수상",
-      "description": "Designed and implemented an LLM-powered agentic automation workflow using n8n and the Upstage API. The system autonomously orchestrated multi-step tasks through structured agent pipelines.",
-      "tools": ["n8n", "Upstage API", "LLM", "Workflow Automation"],
-      "outcome": "Grand Prize (최우수상) — 2025.11.07 ~ 11.14"
+      "status": "제작중",
+      "description": "창업동아리 - SafeLink IOS 개발",
+      "tools": ["AI"],
+      "outcome": ""
     },
     {
-      "title": "AI BOOTCAMP AWARDS Hackathon",
-      "link": null,
+      "title": "동아리 홈페이지 유지보수",
+      "link": "https://allergy-knu.github.io/",
       "linkLabel": null,
-      "status": "최우수상",
-      "description": "Planned and developed an AI-powered Android application leveraging public data APIs. The app provides intelligent data-driven recommendations to end users.",
-      "tools": ["AI", "Android", "Java", "Public Data API"],
-      "outcome": "Grand Prize (최우수상) — 2026.01.19 ~ 01.20"
-    },
-    {
-      "title": "SDU COSS Secure Coding Competition",
-      "link": null,
-      "linkLabel": null,
-      "status": "우수상",
-      "description": "Designed and built an AI-based dementia diagnosis service following secure coding principles. Applied security best practices throughout the full development lifecycle.",
-      "tools": ["AI", "Python", "Secure Coding"],
-      "outcome": "Excellence Award (한국정보보호학회장상) — 2025.10.17 ~ 11.28"
-    },
-    {
-      "title": "APOC Hackathon",
-      "link": null,
-      "linkLabel": null,
-      "status": "수료",
-      "description": "Participated in the 1st APOC Hackathon, planning and developing a project utilizing AR/XR technology. Explored spatial computing use cases within a short-form competitive setting.",
-      "tools": ["AR", "XR"],
-      "outcome": "Completed (수료) — 2025.08.15 ~ 08.16"
+      "status": "제작중",
+      "description": "AlLerGy 홈페이지 유지보수",
+      "tools": ["Web"],
+      "outcome": ""
     }
   ],
 
   "experience": [
     {
-      "title": "Undergraduate Researcher",
-      "org": "CQC Lab · Kangwon National University",
+      "title": "학부연구생",
+      "org": "CQC Lab · 강원대학교",
       "period": "2026 – Present",
       "bullets": [
-        "Conducting research in quantum computing as an undergraduate lab member.",
-        "Attending regular lab seminars and contributing to paper reviews."
+        "양자컴퓨터 연구실 학부연구생"
       ]
     },
     {
-      "title": "AI Session Co-leader",
-      "org": "KNU Google Developer Groups (GDG) · Chuncheon, Korea",
+      "title": "GDG AI 세션 부리더",
+      "org": "KNU Google Developer Groups",
       "period": "2026 – Present",
       "bullets": [
-        "Co-leading the AI session of GDG KNU, organizing study sessions and tech talks.",
-        "Planning and presenting sessions on the latest AI trends including LLMs and agentic workflows."
+        "GDG AI 세션 부리더로서 학습자료 제작 및 강의 진행"
       ]
     },
     {
-      "title": "Club President",
-      "org": "AlLerGy — Algorithm Study Club · Kangwon National University",
+      "title": "알고리즘 동아리 회장",
+      "org": "AlLerGy — Algorithm Lover's Gym",
       "period": "2026 – Present",
       "bullets": [
-        "Founded and lead AlLerGy, a competitive programming and algorithm study club.",
-        "Organize weekly problem-solving sessions and guide members through algorithmic concepts."
+        "ICT 소학회-알고리즘 동아리 회장",
+        "신입부원 멘토링 활동 및 알고리즘 스터디 진행"
       ]
     },
     {
-      "title": "Peer Tutor — International Student Support",
-      "org": "Kangwon National University",
-      "period": "2025 2nd Semester",
+      "title": "메이저러너 팀장",
+      "org": "강원대학교 교육혁신본부",
+      "period": "2026 – Present",
       "bullets": [
-        "Served as a peer tutor for international students through the university tutoring program.",
-        "Provided academic support in major coursework and helped with campus life adjustment."
+        "메이저러너 프로그램에서 팀장으로 활동"
+      ]
+    },
+    {
+      "title": "키멘; KNU 멘토링 멘토",
+      "org": "강원대학교",
+      "period": "2026 – Present",
+      "bullets": [
+        "선후배 진로지도 멘토링 프로그램 [키멘; KNU 멘토링]에서 멘토로 활동"
+      ]
+    },
+    {
+      "title": "코딩애플 Spring Boot & JPA",
+      "org": "Coding Apple",
+      "period": "2026.01.13",
+      "bullets": [
+        "코딩애플 Spring Boot & JPA 강의 수료"
+      ]
+    },
+    {
+      "title": "외국인 유학생 튜터링 프로그램",
+      "org": "강원대학교 국제교류과",
+      "period": "2025년 2학기",
+      "bullets": [
+        "외국인 유학생의 멘토로 활동",
+        "우수 멘토로 선정"
       ]
     }
   ],
 
   "awards": [
     {
-      "title": "Grand Prize (최우수상) — Upstage Agentic Workflow Hackathon",
-      "org": "Upstage",
-      "year": "2025",
-      "description": "Awarded for an LLM-powered agentic automation workflow built with n8n and the Upstage API. (2025.11.07 ~ 11.14)"
-    },
-    {
-      "title": "Grand Prize (최우수상) — AI BOOTCAMP AWARDS Hackathon",
-      "org": "AI BOOTCAMP",
-      "year": "2026",
-      "description": "Awarded for an AI-based Android application utilizing public data APIs. (2026.01.19 ~ 01.20)"
-    },
-    {
-      "title": "Excellence Award (우수상, 한국정보보호학회장상) — SDU COSS Secure Coding",
-      "org": "Korea Institute of Information Security & Cryptology (KIISC)",
-      "year": "2025",
-      "description": "Awarded for an AI-powered dementia diagnosis service developed under secure coding guidelines. (2025.10.17 ~ 11.28)"
-    },
-    {
-      "title": "Encouragement Award (장려상, 강원권 공동 교육혁신센터장상) — AI Learning Contest",
-      "org": "Gangwon Regional Joint Educational Innovation Center",
-      "year": "2026",
-      "description": "Awarded for a submission on AI learning methods and university life strategies. (2025.12.12 ~ 2026.01.26)"
-    },
-    {
-      "title": "ICPC Korea Regional Finalist",
+      "title": "본선진출 - ICPC Korea Regional Finalist",
       "org": "International Collegiate Programming Contest (ICPC)",
       "year": "2025",
-      "description": "Qualified for and competed in the ICPC Korea Regional (본선) in 2025."
+      "description": "ICPC 본선 진출"
+    },
+    {
+      "title": "최우수상 - Upstage Agentic Workflow Hackathon",
+      "org": "Upstage",
+      "year": "2025",
+      "description": "n8n 기반 팀 프로젝트 기여도 분석 서비스. Slack API를 통해 불러온 대화내역과 Github 커밋 로그를 Gemini에게 제공하여 그 결과를 분석합니다. (2025.11.07 ~ 11.14)"
+    },
+    {
+      "title": "우수상(한국정보보호학회장상) — SDU COSS 소프트웨어 개발보안 기큐어코딩",
+      "org": "Korea Institute of Information Security & Cryptology (KIISC)",
+      "year": "2025",
+      "description": "AI를 이용하여 음성 데이터 기반 치매 위험도 판별 서비스. (2025.10.17 ~ 11.28)"
+    },
+    {
+      "title": "최우수상 — AI BOOTCAMP AWARDS Hackathon",
+      "org": "AI BOOTCAMP",
+      "year": "2026",
+      "description": "최우수상 수상 (2026.01.19 ~ 01.20)"
+    },
+    {
+      "title": "장려상(강원권 공동 교육혁신센터장상) — AI 학습법 및 대학생활 노하우 공모전",
+      "org": "Gangwon Regional Joint Educational Innovation Center",
+      "year": "2026",
+      "description": "장려상 수상 (2025.12.12 ~ 2026.01.26)"
+    },
+    {
+      "title": "우수논문상 - 2026년 한국정보보호학회 하계학술대회 CISC-S' 26",
+      "org": "한국정보보호학회",
+      "year": "2026",
+      "description": "\"대규모 최적화 문제 해결을 위한 그래프 분할 기반 양자 어닐링 접근법\" (2026.05.08)"
     }
   ]
 }
