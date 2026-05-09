@@ -121,20 +121,35 @@ function renderPublications(publications, selfName) {
   }
 
   el('pub-list').innerHTML = publications.map(pub => {
-    const linksHtml = pub.links
+    // Simple string entry — just a title, no meta column
+    if (typeof pub === 'string') {
+      return `
+        <article class="pub-entry pub-entry-simple">
+          <div class="pub-body">
+            <h3 class="pub-title">${esc(pub)}</h3>
+          </div>
+        </article>
+      `;
+    }
+
+    // Full object entry — render all available fields with fallbacks
+    const linksHtml = (pub.links || [])
       .map(l => `<a href="${esc(l.url)}" class="pub-link" target="_blank" rel="noopener">${esc(l.label)}</a>`)
       .join('');
 
+    const hasMeta = pub.year || pub.venue;
+
     return `
-      <article class="pub-entry">
+      <article class="pub-entry${hasMeta ? '' : ' pub-entry-simple'}">
+        ${hasMeta ? `
         <div class="pub-meta">
-          <span class="pub-year">${esc(String(pub.year))}</span>
-          <span class="pub-venue">${esc(pub.venue)}</span>
-        </div>
+          ${pub.year   ? `<span class="pub-year">${esc(String(pub.year))}</span>` : ''}
+          ${pub.venue  ? `<span class="pub-venue">${esc(pub.venue)}</span>`        : ''}
+        </div>` : ''}
         <div class="pub-body">
-          <h3 class="pub-title">${esc(pub.title)}</h3>
-          <p  class="pub-authors">${boldSelf(pub.authors, selfName)}</p>
-          <div class="pub-links">${linksHtml}</div>
+          <h3 class="pub-title">${esc(pub.title || '')}</h3>
+          ${pub.authors ? `<p class="pub-authors">${boldSelf(pub.authors, selfName)}</p>` : ''}
+          ${linksHtml   ? `<div class="pub-links">${linksHtml}</div>`                      : ''}
         </div>
       </article>
     `;
@@ -162,7 +177,7 @@ function renderProjects(projects) {
         </div>
         <p class="project-desc">${esc(p.description)}</p>
         <div class="project-tools">${toolsHtml}</div>
-        <p class="project-outcome"><strong>Outcome:</strong> ${esc(p.outcome)}</p>
+        ${p.outcome ? `<p class="project-outcome"><strong>Outcome:</strong> ${esc(p.outcome)}</p>` : ''}
       </article>
     `;
   }).join('');

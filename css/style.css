@@ -616,6 +616,11 @@ em {
   flex-direction: column;
 }
 
+/* String-only entry: no meta column, full width */
+.pub-entry-simple {
+  display: block;
+}
+
 .pub-entry {
   display: grid;
   grid-template-columns: 72px 1fr;
