@@ -57,10 +57,29 @@ function renderMeta(meta) {
 
 /* — Hero ———————————————————————————————————————————————————— */
 function renderHero(meta) {
-  el('hero-initials').textContent = meta.initials || '';
-  el('hero-name').textContent     = meta.name;
-  el('hero-title').textContent    = meta.title;
-  el('hero-intro').textContent    = meta.intro;
+  // Avatar: photo takes priority; fall back to initials circle
+  const wrap = el('hero-avatar-wrap');
+  if (meta.photo) {
+    const img = document.createElement('img');
+    img.src       = meta.photo;
+    img.alt       = meta.name;
+    img.className = 'hero-photo';
+    // If the image fails to load, swap in the initials circle
+    img.onerror = () => {
+      wrap.innerHTML = `<div class="hero-avatar" aria-hidden="true">
+        <span class="hero-avatar-initials">${esc(meta.initials || '')}</span>
+      </div>`;
+    };
+    wrap.appendChild(img);
+  } else {
+    wrap.innerHTML = `<div class="hero-avatar" aria-hidden="true">
+      <span class="hero-avatar-initials">${esc(meta.initials || '')}</span>
+    </div>`;
+  }
+
+  el('hero-name').textContent  = meta.name;
+  el('hero-title').textContent = meta.title;
+  el('hero-intro').textContent = meta.intro;
 
   // Build CTA row: Email button + text links
   const links = [];

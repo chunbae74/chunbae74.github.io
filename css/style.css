@@ -434,13 +434,15 @@ em {
   user-select: none;
 }
 
-/* If using a real photo, add class="hero-photo" to the <img> */
 .hero-photo {
   width: 148px;
   height: 148px;
   border-radius: var(--radius-pill);
   object-fit: cover;
+  object-position: center top;
   border: 1px solid var(--hairline);
+  display: block;
+  flex-shrink: 0;
 }
 
 /* Name headline */

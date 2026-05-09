@@ -2,6 +2,7 @@
   "meta": {
     "name": "Junyoung Bae",
     "initials": "JYB",
+    "photo": "assets/photo.jpg",
     "title": "KNU Computer Science Student",
     "intro": "해보고 싶은 것이 많은 대학생입니다.",
     "email": "chunbaekim74@gmail.com",
@@ -48,7 +49,7 @@
       "venue": "CISC-S",
       "title": "\"대규모 최적화 문제 해결을 위한 그래프 분할 기반 양자 어닐링 접근법\"",
       "authors": "배준영, 이동재 (강워대학교 학부생, 교수)",
-      "links": [""]
+      "links": []
     }
   ],
 
@@ -133,31 +134,13 @@
       ]
     }
   ],
-
+  
   "awards": [
     {
-      "title": "본선진출 - ICPC Korea Regional Finalist",
-      "org": "International Collegiate Programming Contest (ICPC)",
-      "year": "2025",
-      "description": "ICPC 본선 진출"
-    },
-    {
-      "title": "최우수상 - Upstage Agentic Workflow Hackathon",
-      "org": "Upstage",
-      "year": "2025",
-      "description": "n8n 기반 팀 프로젝트 기여도 분석 서비스. Slack API를 통해 불러온 대화내역과 Github 커밋 로그를 Gemini에게 제공하여 그 결과를 분석합니다. (2025.11.07 ~ 11.14)"
-    },
-    {
-      "title": "우수상(한국정보보호학회장상) — SDU COSS 소프트웨어 개발보안 기큐어코딩",
-      "org": "Korea Institute of Information Security & Cryptology (KIISC)",
-      "year": "2025",
-      "description": "AI를 이용하여 음성 데이터 기반 치매 위험도 판별 서비스. (2025.10.17 ~ 11.28)"
-    },
-    {
-      "title": "최우수상 — AI BOOTCAMP AWARDS Hackathon",
-      "org": "AI BOOTCAMP",
+      "title": "우수논문상 - 2026년 한국정보보호학회 하계학술대회 CISC-S' 26",
+      "org": "한국정보보호학회",
       "year": "2026",
-      "description": "최우수상 수상 (2026.01.19 ~ 01.20)"
+      "description": "\"대규모 최적화 문제 해결을 위한 그래프 분할 기반 양자 어닐링 접근법\" (2026.05.08)"
     },
     {
       "title": "장려상(강원권 공동 교육혁신센터장상) — AI 학습법 및 대학생활 노하우 공모전",
@@ -166,10 +149,28 @@
       "description": "장려상 수상 (2025.12.12 ~ 2026.01.26)"
     },
     {
-      "title": "우수논문상 - 2026년 한국정보보호학회 하계학술대회 CISC-S' 26",
-      "org": "한국정보보호학회",
+      "title": "최우수상 — AI BOOTCAMP AWARDS Hackathon",
+      "org": "AI BOOTCAMP",
       "year": "2026",
-      "description": "\"대규모 최적화 문제 해결을 위한 그래프 분할 기반 양자 어닐링 접근법\" (2026.05.08)"
+      "description": "최우수상 수상 (2026.01.19 ~ 01.20)"
+    },
+    {
+      "title": "우수상(한국정보보호학회장상) — SDU COSS 소프트웨어 개발보안 기큐어코딩",
+      "org": "Korea Institute of Information Security & Cryptology (KIISC)",
+      "year": "2025",
+      "description": "AI를 이용하여 음성 데이터 기반 치매 위험도 판별 서비스. (2025.10.17 ~ 11.28)"
+    },
+    {
+      "title": "최우수상 - Upstage Agentic Workflow Hackathon",
+      "org": "Upstage",
+      "year": "2025",
+      "description": "n8n 기반 팀 프로젝트 기여도 분석 서비스. Slack API를 통해 불러온 대화내역과 Github 커밋 로그를 Gemini에게 제공하여 그 결과를 분석합니다. (2025.11.07 ~ 11.14)"
+    },
+    {
+      "title": "본선진출 - ICPC Korea Regional Finalist",
+      "org": "International Collegiate Programming Contest (ICPC)",
+      "year": "2025",
+      "description": "ICPC 본선 진출"
     }
   ]
 }
