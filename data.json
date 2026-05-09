@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "name": "Junyoung Bae",
+    "initials": "JYB",
+    "title": "KNU Computer Science Student",
+    "intro": "해보고 싶은 것이 많은 대학생입니다.",
+    "email": "chunbaekim74@gmail.com",
+    "github": "https://github.com/chunbae74",
+    "linkedin": "",
+    "blog": "https://chunbae74.tistory.com/",
+    "affiliation": "강원대학교 컴퓨터공학과",
+    "office": "",
+    "contactLead": "새로운 만남은 언제나 환영입니다"
+  },
+
+  "about": {
+    "summary": "현재 컴퓨터공학과에서 재학중인 학부생입니다. AI, 로봇 쪽에 관심이 있어요",
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "C/C++"
+    ],
+    "interests": [
+      "AI",
+      "LLM & Agentic AI",
+      "Algorithm / Problem Solving",
+      "Quantum Computing",
+      "Physical AI"
+    ]
+  },
+
+  "education": [
+    {
+      "degree": "컴퓨터공학과 학부생",
+      "institution": "강원대학교",
+      "period": "2023 – Present",
+      "details": [
+        "Undergraduate Researcher: CQC Lab (Quantum Computing)",
+        "Activities: GDG KNU AI Session Co-leader, AlLerGy Club President, ICPC 2025 Finalist",
+        "Expected Graduation: 2026"
+      ]
+    }
+  ],
+
+  "publications": [],
+
+  "projects": [
+    {
+      "title": "Upstage Agentic Workflow Hackathon",
+      "link": null,
+      "linkLabel": null,
+      "status": "최우수상",
+      "description": "Designed and implemented an LLM-powered agentic automation workflow using n8n and the Upstage API. The system autonomously orchestrated multi-step tasks through structured agent pipelines.",
+      "tools": ["n8n", "Upstage API", "LLM", "Workflow Automation"],
+      "outcome": "Grand Prize (최우수상) — 2025.11.07 ~ 11.14"
+    },
+    {
+      "title": "AI BOOTCAMP AWARDS Hackathon",
+      "link": null,
+      "linkLabel": null,
+      "status": "최우수상",
+      "description": "Planned and developed an AI-powered Android application leveraging public data APIs. The app provides intelligent data-driven recommendations to end users.",
+      "tools": ["AI", "Android", "Java", "Public Data API"],
+      "outcome": "Grand Prize (최우수상) — 2026.01.19 ~ 01.20"
+    },
+    {
+      "title": "SDU COSS Secure Coding Competition",
+      "link": null,
+      "linkLabel": null,
+      "status": "우수상",
+      "description": "Designed and built an AI-based dementia diagnosis service following secure coding principles. Applied security best practices throughout the full development lifecycle.",
+      "tools": ["AI", "Python", "Secure Coding"],
+      "outcome": "Excellence Award (한국정보보호학회장상) — 2025.10.17 ~ 11.28"
+    },
+    {
+      "title": "APOC Hackathon",
+      "link": null,
+      "linkLabel": null,
+      "status": "수료",
+      "description": "Participated in the 1st APOC Hackathon, planning and developing a project utilizing AR/XR technology. Explored spatial computing use cases within a short-form competitive setting.",
+      "tools": ["AR", "XR"],
+      "outcome": "Completed (수료) — 2025.08.15 ~ 08.16"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Undergraduate Researcher",
+      "org": "CQC Lab · Kangwon National University",
+      "period": "2026 – Present",
+      "bullets": [
+        "Conducting research in quantum computing as an undergraduate lab member.",
+        "Attending regular lab seminars and contributing to paper reviews."
+      ]
+    },
+    {
+      "title": "AI Session Co-leader",
+      "org": "KNU Google Developer Groups (GDG) · Chuncheon, Korea",
+      "period": "2026 – Present",
+      "bullets": [
+        "Co-leading the AI session of GDG KNU, organizing study sessions and tech talks.",
+        "Planning and presenting sessions on the latest AI trends including LLMs and agentic workflows."
+      ]
+    },
+    {
+      "title": "Club President",
+      "org": "AlLerGy — Algorithm Study Club · Kangwon National University",
+      "period": "2026 – Present",
+      "bullets": [
+        "Founded and lead AlLerGy, a competitive programming and algorithm study club.",
+        "Organize weekly problem-solving sessions and guide members through algorithmic concepts."
+      ]
+    },
+    {
+      "title": "Peer Tutor — International Student Support",
+      "org": "Kangwon National University",
+      "period": "2025 2nd Semester",
+      "bullets": [
+        "Served as a peer tutor for international students through the university tutoring program.",
+        "Provided academic support in major coursework and helped with campus life adjustment."
+      ]
+    }
+  ],
+
+  "awards": [
+    {
+      "title": "Grand Prize (최우수상) — Upstage Agentic Workflow Hackathon",
+      "org": "Upstage",
+      "year": "2025",
+      "description": "Awarded for an LLM-powered agentic automation workflow built with n8n and the Upstage API. (2025.11.07 ~ 11.14)"
+    },
+    {
+      "title": "Grand Prize (최우수상) — AI BOOTCAMP AWARDS Hackathon",
+      "org": "AI BOOTCAMP",
+      "year": "2026",
+      "description": "Awarded for an AI-based Android application utilizing public data APIs. (2026.01.19 ~ 01.20)"
+    },
+    {
+      "title": "Excellence Award (우수상, 한국정보보호학회장상) — SDU COSS Secure Coding",
+      "org": "Korea Institute of Information Security & Cryptology (KIISC)",
+      "year": "2025",
+      "description": "Awarded for an AI-powered dementia diagnosis service developed under secure coding guidelines. (2025.10.17 ~ 11.28)"
+    },
+    {
+      "title": "Encouragement Award (장려상, 강원권 공동 교육혁신센터장상) — AI Learning Contest",
+      "org": "Gangwon Regional Joint Educational Innovation Center",
+      "year": "2026",
+      "description": "Awarded for a submission on AI learning methods and university life strategies. (2025.12.12 ~ 2026.01.26)"
+    },
+    {
+      "title": "ICPC Korea Regional Finalist",
+      "org": "International Collegiate Programming Contest (ICPC)",
+      "year": "2025",
+      "description": "Qualified for and competed in the ICPC Korea Regional (본선) in 2025."
+    }
+  ]
+}
