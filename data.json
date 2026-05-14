@@ -48,7 +48,7 @@
       "year": 2026,
       "venue": "CISC-S",
       "title": "\"대규모 최적화 문제 해결을 위한 그래프 분할 기반 양자 어닐링 접근법\"",
-      "authors": "배준영, 이동재 (강워대학교 학부생, 교수)",
+      "authors": "배준영, 이동재 (강원대학교 학부생, 교수)",
       "links": []
     }
   ],
@@ -144,25 +144,25 @@
     },
     {
       "title": "장려상(강원권 공동 교육혁신센터장상) — AI 학습법 및 대학생활 노하우 공모전",
-      "org": "Gangwon Regional Joint Educational Innovation Center",
+      "org": "강원권 공동 교육혁신센터",
       "year": "2026",
       "description": "장려상 수상 (2025.12.12 ~ 2026.01.26)"
     },
     {
       "title": "최우수상 — AI BOOTCAMP AWARDS Hackathon",
-      "org": "AI BOOTCAMP",
+      "org": "강원대학교 AI BOOTCAMP 사업단",
       "year": "2026",
       "description": "최우수상 수상 (2026.01.19 ~ 01.20)"
     },
     {
-      "title": "우수상(한국정보보호학회장상) — SDU COSS 소프트웨어 개발보안 기큐어코딩",
-      "org": "Korea Institute of Information Security & Cryptology (KIISC)",
+      "title": "우수상(한국정보보호학회장상) — 제12회 소프트웨어 개발보안 경진대회(공공활용성 부문)",
+      "org": "한국정보보호학회",
       "year": "2025",
       "description": "AI를 이용하여 음성 데이터 기반 치매 위험도 판별 서비스. (2025.10.17 ~ 11.28)"
     },
     {
       "title": "최우수상 - Upstage Agentic Workflow Hackathon",
-      "org": "Upstage",
+      "org": "강원대학교 AI BOOTCAMP 사업단",
       "year": "2025",
       "description": "n8n 기반 팀 프로젝트 기여도 분석 서비스. Slack API를 통해 불러온 대화내역과 Github 커밋 로그를 Gemini에게 제공하여 그 결과를 분석합니다. (2025.11.07 ~ 11.14)"
     },
